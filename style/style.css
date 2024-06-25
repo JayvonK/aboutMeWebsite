@@ -1,0 +1,108 @@
+body {
+    background-image: url(/assets/moonbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+hr {
+    margin-top: 2%;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+div li {
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'myFirstFont';    
+    line-height: 38px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/assets/FFF_Tusj.ttf);
+}
+
+.outline {
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: white;
+}
+.titleFont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color {
+    color: cornflowerblue;
+}
+
+.center {
+    text-align: center;
+}
+
+.listFonts {
+    font-size: 24px;
+}
+
+.imgSize {
+    height: 45px;
+}
+
+.jayvon {
+    height: auto;
+    width: 400px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+.txtright {
+    text-align: right;    
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.txtleft {
+    text-align: left;
+    margin-left: 300px;
+}
+
+.left {    
+    
+    border-radius: 5%;
+    margin-right: 50%;
+    margin-left: 5%;
+    margin-top: -525px; 
+}
+
+.bgColor {
+    background-color: rgba(136, 136, 136, 0.35);
+    border: 1px solid white;
+}
+
+.ig {
+    margin-top: -90px;
+    margin-right: 600px;
+    margin-left: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right {
+    border-radius: 5%;
+    margin-right: 5%;
+    margin-left: 50%;
+    margin-top: -525px; 
+}
